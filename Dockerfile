@@ -1,10 +1,12 @@
 FROM oven/bun:latest
 
-COPY package.json ./
-COPY bun.lock ./
-COPY src ./src
+RUN apt-get update 
 
+RUN apt install git -y
+
+RUN git clone https://github.com/plaptr/n8n_test.git .
 RUN bun install
+
 EXPOSE 3000
 
 CMD ["bun", "start"]
