@@ -4,9 +4,10 @@ RUN apt-get update
 
 RUN apt install git -y
 
-RUN git clone https://github.com/plaptr/n8n_test.git 
+RUN echo
+RUN git clone https://github.com/plaptr/n8n_test.git .
 
-WORKDIR /n8n_test
+RUN chmod +x ./startup.sh
 
 EXPOSE 3000
 
