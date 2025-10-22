@@ -5,8 +5,8 @@ import reactLogo from "./react.svg";
 
 export function App() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h1 className="text-8xl font-bold">Autodeploy 2 test</h1>
+    <div className="flex flex-col h-full items-center justify-center">
+      <h1 className="text-5xl font-bold">Autodeploy 2 test</h1>
       <p>This is a test</p>
     </div>
   );
