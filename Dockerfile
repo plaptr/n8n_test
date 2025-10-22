@@ -6,7 +6,6 @@ RUN apt install git -y
 
 RUN git clone https://github.com/plaptr/n8n_test.git .
 
-COPY ./startup.sh ./startup.sh
 RUN chmod +x ./startup.sh
 
 EXPOSE 3000
