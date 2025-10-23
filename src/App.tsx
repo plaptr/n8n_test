@@ -6,10 +6,8 @@ import reactLogo from "./react.svg";
 export function App() {
   return (
     <div className="flex flex-col h-screen items-center justify-center ">
-      <div className="shadow-lg rounded-sm flex flex-col gap-2 items-center justify-center">
-        <h1 className="text-5xl font-bold">AutoDeploy</h1>
-        <p>Push -&gt; Deploy</p>
-      </div>
+      <h1 className="text-5xl font-bold">AutoDeploy</h1>
+      <p>Push -&gt; Deploy</p>
     </div>
   );
 }
