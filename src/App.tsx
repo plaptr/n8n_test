@@ -10,7 +10,7 @@ export function App() {
       <p>Push -&gt; Deploy</p>
 
       <div className="grid place-items-center p-4 shadow">
-        <p>CIOA</p>
+        <p>Hello, world</p>
       </div>
     </div>
   );
