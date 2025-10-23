@@ -9,7 +9,7 @@ export function App() {
       <h1 className="text-5xl font-bold">AutoDeploy</h1>
       <p>Push -&gt; Deploy</p>
 
-      <div className="grid place-items-center p-4 border-slate-500">
+      <div className="grid place-items-center p-4 shadow">
         <p>CIOA</p>
       </div>
     </div>
